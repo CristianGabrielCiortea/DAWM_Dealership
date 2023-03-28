@@ -18,8 +18,6 @@ namespace DataLayer.Entities
 
         public string Address { get; set; } 
 
-        public Dealership Dealership { get; set; }
-
-        public List<Car> Cars { get; set; }
+        public int DealershipId { get; set; }
     }
 }

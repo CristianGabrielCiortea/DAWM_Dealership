@@ -24,5 +24,7 @@ namespace DataLayer.Entities
         public Color Color { get; set; }
 
         public FuelType FuelType { get; set; }
+
+        public int SalesmanId { get; set; }
     }
 }
