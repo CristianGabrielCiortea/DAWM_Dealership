@@ -33,7 +33,7 @@ namespace DataLayer
                     },
                     new Salesman
                     {
-                        Id = 1,
+                        Id = 3,
                         FirstName = "Adrian",
                         LastName = "Florentin",
                         Address = "Brasov, Strada Mircea cel Batran, numarul 1",
@@ -57,7 +57,7 @@ namespace DataLayer
                     },
                     new Car
                     {
-                        Id = 1,
+                        Id = 2,
                         Make = "BMW",
                         Model = "M2",
                         Year = 2015,
@@ -69,7 +69,7 @@ namespace DataLayer
                     },
                     new Car
                     {
-                        Id = 1,
+                        Id = 3,
                         Make = "Audi",
                         Model = "A3",
                         Year = 2010,
@@ -90,7 +90,7 @@ namespace DataLayer
                 {
                     new Salesman
                     {
-                        Id = 1,
+                        Id = 4,
                         FirstName = "Ionut",
                         LastName = "Constantin",
                         Address = "Bucuresti, Strada Iuliu-Maniu, numarul 12",
@@ -99,7 +99,7 @@ namespace DataLayer
                     },
                     new Salesman
                     {
-                        Id = 2,
+                        Id = 5,
                         FirstName = "Cristian",
                         LastName = "Vladaut",
                         Address = "Bucuresti, Strada Sanzienelor, numarul 1",
@@ -108,7 +108,7 @@ namespace DataLayer
                     },
                     new Salesman
                     {
-                        Id = 1,
+                        Id = 6,
                         FirstName = "Andrei",
                         LastName = "Dodolcut",
                         Address = "Bucuresti, Strada Mihai Blaga, numarul 5",
@@ -120,7 +120,7 @@ namespace DataLayer
                 {
                     new Car
                     {
-                        Id = 1,
+                        Id = 4,
                         Make = "Audi",
                         Model = "A1",
                         Year = 2009,
@@ -132,7 +132,7 @@ namespace DataLayer
                     },
                     new Car
                     {
-                        Id = 1,
+                        Id = 5,
                         Make = "BMW",
                         Model = "M2",
                         Year = 2015,
@@ -144,7 +144,7 @@ namespace DataLayer
                     },
                     new Car
                     {
-                        Id = 1,
+                        Id = 6,
                         Make = "Audi",
                         Model = "A3",
                         Year = 2010,

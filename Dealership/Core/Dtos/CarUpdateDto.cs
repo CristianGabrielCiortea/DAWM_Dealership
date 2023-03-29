@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Core.Dtos
 {
-    internal class CarUpdateDto
+    public class CarUpdateDto
     {
         public int Id { get; set; }
 

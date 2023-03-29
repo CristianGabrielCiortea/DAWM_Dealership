@@ -37,7 +37,7 @@ namespace Core.Services
         public bool Add(Car car)
         {
             int id = carRepository.GetAll().Max(x => x.Id);
-            car.Id = id;
+            car.Id = id++;
 
             return carRepository.Add(car);
         }
