@@ -1,4 +1,6 @@
-﻿using DataLayer.Entities;
+﻿using DataLayer.Dtos;
+using DataLayer.Entities;
+using DataLayer.Mapping;
 
 namespace DataLayer.Repositories
 {
@@ -17,6 +19,23 @@ namespace DataLayer.Repositories
                 .Where(x => x.Id == carId)
                 .FirstOrDefault();
 
+            return result;
+        }
+
+        public bool Add(Car car)
+        {
+            DbContext.Cars.Add(car);
+
+            return true;
+        }
+
+        public Car Delete(int carId)
+        {
+            var result = GetById(carId);
+
+            if (result == null) return null;
+
+            DbContext.Cars.Remove(result);
             return result;
         }
     }
